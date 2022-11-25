@@ -1,0 +1,44 @@
+main{
+    margin:34px 0px ;
+#cards{
+    .cards_items{
+        display: flex;
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    /* justify-content: center; */
+    
+       .cards_header{
+        width: 500px;
+        img{
+            width: 400px;
+            height: 230px;
+            border-radius: $border_10_radius;
+            object-fit: cover;
+            top: 0px;
+        }
+        h1{
+            font-size: 25px;
+            font-weight: 500;
+            /* padding: 10px 110px; */
+            font-family: "Montserrat", sans-serif;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 10px;
+            color: #575757;
+        }
+        hr{
+            width: 408px;
+        }
+       } 
+    }
+}
+}
